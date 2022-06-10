@@ -1,0 +1,41 @@
+.modal {
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 2px 3px black;
+  display:block;
+  left: -120%;
+  top: 15%;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+
+}
+.modal-form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.modal-form .text-input {
+  width: 400px;
+  padding: 14px 0;
+  border: none;
+  background: #fff;
+  border: 1px solid #e1e5ee;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(24, 104, 188, .07);
+  padding-right: 15px;
+  color: #666;
+  font-size: 17px;
+  outline: none;
+  font-family: IRANSans;
+  margin: 15px;
+}
+.active {
+  left: 30%;
+}
