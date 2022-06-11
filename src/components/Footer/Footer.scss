@@ -51,6 +51,7 @@
   max-width: 1000px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer-link-wrapper {
@@ -161,5 +162,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
+  .footer-subscription-heading {
+    font-size: 18px;
+  }
+  .footer-subscription-text {
+    font-size: 18px;
+  }
 }

@@ -11,6 +11,7 @@
     background-size: cover;
     background-position: center;
 
+
 }
 
 .navbar-container {
@@ -18,8 +19,10 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1500px;
+   
     font-family: IRANSans;
+
+ 
 }
 
 .navbar-logo {
@@ -45,7 +48,7 @@
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
+    justify-content: start;
     margin-right: 2rem;
 }
 
@@ -92,14 +95,15 @@
     width: 150px !important;
     text-align: right;
 }
-ul .submenu.active {
+.nav-item:hover> .submenu {
     max-height: 300px !important;
 }
-ul .submenu.active li:hover{
+
+ul .submenu:hover li:hover{
     background-color: #1f98f4;
     border-radius: 6px;
 }
-ul .submenu.active li:hover a{
+ul .submenu li:hover a{
    color: white;
 }
 ul .submenu a {
@@ -111,7 +115,7 @@ ul .submenu a {
 }
 
 ul .submenu a i {
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
 
@@ -142,16 +146,14 @@ ul .submenu a i {
 }
 
 @media screen and (max-width: 960px) {
-    .NavbarItems {
-        position: relative;
-    }
+    
 
     .nav-menu {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 90vh;
-        position: absolute;
+        position: fixed;
         top: 80px;
         left: -100%;
         opacity: 1;
@@ -164,6 +166,7 @@ ul .submenu a i {
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+     
     }
 
     .nav-links {

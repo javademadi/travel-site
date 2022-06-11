@@ -29,6 +29,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  min-width: 220px;
 }
 
 .cards__item__link {
@@ -116,5 +117,12 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .cards__item__text {
+ text-align: center;
+    font-size: 14px;
+   
   }
 }

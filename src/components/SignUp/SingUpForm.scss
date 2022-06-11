@@ -1,8 +1,8 @@
 .signup-container {
   background-color: #fff;
-border-radius: 5px;
+  border-radius: 5px;
 }
-
+ 
 .signup-form {
   display: flex;
   flex-flow: column;
@@ -26,3 +26,11 @@ border-radius: 5px;
   font-family: IRANSans;
   margin-top: 25px;
 }
+
+@media screen and (max-width:576px){
+  .text-input {
+    width: 260px;
+    font-size: 13px;
+  }
+}
+

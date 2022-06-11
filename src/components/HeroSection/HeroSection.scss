@@ -36,7 +36,7 @@ video{
   background-color: #fff;
 }
 .hero-buttons .btn{
-  margin:6px
+  margin:6px 0
 }
 .fa-play-circle{
   margin-right: 5px;
@@ -60,18 +60,21 @@ video{
 
 @media screen and (max-width:768px){
   .search-input{
-    width: 544px;
+    width: 400px;
   }
   .btn-mobile{
     display: block;
     text-decoration: none;
   }
-  .btn{
+  .btn {
     width: 100%;
   }
+  
 }
 @media screen and (max-width:633px){
   .search-input{
-    width: 400px;
+    width: 300px;
+    font-size: 12px;
   }
+
 }

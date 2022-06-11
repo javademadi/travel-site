@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+ 
 }
 
 .tourism {
@@ -29,6 +30,7 @@
     color:#fff;
     font-size: 26px;
     background-size: cover;
+   
 }
 .tourism>p{
     color: #ffffff;
